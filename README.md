@@ -1,1 +1,11 @@
 # Set-and-Sorting
+items = input("Input comma separated sequence of words")
+words = [word for word in items.split(",")]
+print(",".join(sorted(list(set(words)))))
+
+OUTPUT:
+
+Input comma separated sequence of wordsCAT,DOG,APPLE,BANANA
+APPLE,BANANA,CAT,DOG
+
+
